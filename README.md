@@ -60,4 +60,4 @@ _Coming soon._
 
 ## Author
 
-Built by Jian as a full stack development portfolio project.
+Built by Jian Brenz Becera as a full stack development portfolio project.
