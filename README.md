@@ -53,9 +53,7 @@ _Coming soon._
 
 ## Roadmap / Future Work
 
-- Refunds and voided transactions
 - Multi-staff accounts with role-based permissions
-- Barcode/SKU scanning
 - Mobile app (Kotlin/Android)
 
 ## Author
