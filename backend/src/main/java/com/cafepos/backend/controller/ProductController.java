@@ -30,6 +30,11 @@ public class ProductController {
         return productRepository.findAll();
     }
 
+     @GetMapping("/low-stock")
+    public List<Product> getLowStockProducts() {
+        return productRepository.findLowStockProducts();
+    }
+
     @GetMapping("/{id}")
     public ResponseEntity<Product> getProductById(@PathVariable Long id) {
         return productRepository.findById(id)
@@ -64,4 +69,4 @@ public class ProductController {
         productRepository.deleteById(id);
         return ResponseEntity.noContent().build();
     }
-}
+}   
